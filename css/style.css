@@ -1,1 +1,17 @@
+body { font-family: Arial, sans-serif; margin:0; padding:0; background:#f5fff5; color:#004d00; }
+header { display:flex; justify-content:space-between; align-items:center; padding:10px 20px; background:#006400; color:#fff; }
+header nav a { color:#fff; margin:0 10px; text-decoration:none; }
+.cart { cursor:pointer; }
 
+.banner { text-align:center; padding:50px 20px; background:#b3ffb3; }
+.shop-btn { display:inline-block; padding:10px 20px; background:#006400; color:#fff; text-decoration:none; margin-top:10px; border-radius:5px; }
+.shop-btn:hover { background:#004d00; }
+
+.product-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(200px,1fr)); gap:20px; padding:20px; }
+.product-card { border:1px solid #a3d9a3; padding:10px; text-align:center; border-radius:10px; background:#fff; transition:0.3s; }
+.product-card:hover { box-shadow:0 4px 15px rgba(0,0,0,0.2); }
+.product-card img { width:100%; height:150px; object-fit:cover; border-radius:10px; }
+.view-details { display:inline-block; margin-top:10px; padding:5px 10px; background:#006400; color:#fff; text-decoration:none; border-radius:5px; }
+.view-details:hover { background:#004d00; }
+
+footer { text-align:center; padding:10px; background:#b3ffb3; color:#004d00; }
